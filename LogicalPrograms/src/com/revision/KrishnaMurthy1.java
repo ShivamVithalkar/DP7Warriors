@@ -3,12 +3,11 @@ import java.util.Scanner;
 
 public class KrishnaMurthy1 
 {
-	
 	static void checkKrishna(int num)
 	{
 		int original= num;
 		int sum=0;
-		do
+		while(num!=0)
 		{
 			int r= num%10;
 			// logic of fact
@@ -17,14 +16,9 @@ public class KrishnaMurthy1
 			{
 				fact*=i;
 			}
-			
 			sum+=fact;
-			num/=10;
-			
-			//System.out.println(sum);
-			
-			
-		}while(num!=0);
+			num/=10;			
+		}
 		
 		if(sum==original)
 		{
@@ -48,5 +42,7 @@ public class KrishnaMurthy1
 		checkKrishna(num);
 		
 	}
-
 }
+//factorial=145=4-1*2*3*4=24
+//5- 1*2*3*4*5=120
+//145=1+24+120

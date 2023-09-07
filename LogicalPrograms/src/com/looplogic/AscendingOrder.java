@@ -24,7 +24,7 @@ public class AscendingOrder
 
 	if(isincreasing)
 	{
-		System.out.println("The enterd number is in increasing order");
+		System.out.println("The enter number is in increasing order");
 	}else
 	{
 		System.out.println("Is not in increasing order");
