@@ -1,7 +1,7 @@
-package com.LabAssign;
+package com.LabSession1;
 import java.util.Scanner;
 
-public class DecreasingNumber 
+public class IncreasingNumber 
 {
 
 	public static void main(String[] args)
@@ -15,12 +15,11 @@ public class DecreasingNumber
 		{
 			int inc=num%10;
 			
-			int temp=num;
-			while(inc>0) 
-		while(temp>0)		
+		int temp=num;
+		while(temp>0)
 		{
 			int rem=temp%10;
-			if(rem<inc)
+			if(rem>inc)
 			{
 				flag=1;
 				break;
@@ -28,10 +27,10 @@ public class DecreasingNumber
 			temp=temp/10;
 		}
 		num=num/10;
-		
+		}
 		if(flag==0)
 		{
-			System.out.println("Decreasing number");
+			System.out.println("Increasing number");
 		}
 		else
 		{
@@ -39,5 +38,4 @@ public class DecreasingNumber
 		}
 	}
 
-}
 }

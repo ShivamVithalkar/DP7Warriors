@@ -1,4 +1,4 @@
-package com.LabAssign;
+package com.LabSession1;
 import java.util.Scanner;
 
 public class GuessNumber 
