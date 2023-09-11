@@ -35,8 +35,6 @@ public class Automorphic1
 		{
 			System.out.println("Not Automorphic");
 		}
-		
-
 	}
-
+//6 is auto as squ=36 it contain 6 then it is auto
 }

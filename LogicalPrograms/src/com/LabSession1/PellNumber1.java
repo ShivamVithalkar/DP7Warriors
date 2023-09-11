@@ -21,6 +21,6 @@ public class PellNumber1
 		int num=10;
 		pellSeries(num);
 
-	}
+	}//0 1 2 5 12 29 70 169...
 
 }

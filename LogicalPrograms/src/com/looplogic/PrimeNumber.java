@@ -2,7 +2,6 @@ package com.looplogic;
 
 public class PrimeNumber 
 {
-	
 	static boolean checkPrime(int n)
 	{
 		boolean status =true;
